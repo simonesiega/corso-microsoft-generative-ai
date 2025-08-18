@@ -24,7 +24,7 @@ Tokens allow the model to handle **vocabulary efficiently** and to generalize ov
 3. The sequence of token IDs is fed into the model for processing.
 4. The model predicts the next token or generates outputs based on the tokenized input.
 
-![Token division illustration](01-introduction-to-genai/images/Input-to-tokens.png)
+![Token division illustration](images/Input-to-tokens.png)
 
 ```text
 Example Text: "Many words map to one token, but some don't: indivisible."  
@@ -39,7 +39,7 @@ Token IDs: [12, 345, 678, ...] (corresponding to each token)
 - **Sequences of characters frequently appearing together** may be grouped as a single token.  
   Example: 1234567890 → one token
 
-![Token IDs illustration](01-introduction-to-genai/images/Input-to-tokens-IDs.png)
+![Token IDs illustration](images/Input-to-tokens-IDs.png)
 
 ---
 
